@@ -9,7 +9,6 @@ Meteor.methods({
     TasksCollection.insert({
       text,
       createdAt: new Date,
-      userId: this.userId,
     })
   },
 
